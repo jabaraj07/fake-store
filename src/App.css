@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+.day1{
+    color: crimson;
+    font-size: 75px;
+}
+.button1{
+    width: 50px;
+    height: 50px;
+    font-size: 15px;
+    background-color: bisque;
+    border-style: none;
+    box-shadow: inset;
+}
+.result{
+    font-size: 20px;
+    width: 200px;
+    /* background-color: aquamarine; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.bmi{
+    background-color: rgb(109, 211, 211);
+    display: flex;
+    justify-content: center;
+}
+.bmii{
+    width: 500px;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+button{
+    margin-right: 10px;
+    width: 100px;
+    height: 35px;
+}
+.button-div{
+    display: flex;
+    justify-content: center;
+}
+.input1-div{
+    display: flex;
+    justify-content: center;
+}
+.input2-div{
+    display: flex;
+    justify-content: center;
+}
+p,h4{
+    font-size: 25px;
+}
+label{
+    font-size: 20px;
+    margin-right: 10px;
+}
+input::placeholder{
+    text-align: center;
+    background-color: antiquewhite;
+}
+input:focus{
+    color: red;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+    background-color: rgb(4, 4, 4);
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+li {
+    list-style: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+li a{
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
 }
